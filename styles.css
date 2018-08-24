@@ -1,0 +1,67 @@
+body {
+  font-family: 'Merriweather', serif;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/4Ku9x8aIg/videoblocks-heavenly-sunset-clouds-background_hhg_ncv2rm_thumbnail-full01.png');
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: black;
+  font-size: 3.5rem;
+  text-shadow: 2px 1px 1px #717171;
+  margin-bottom: 1rem;
+}
+
+i {
+  color: yellow;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.khaled {
+  padding: 1rem;
+  animation: spin 3s infinite;
+}
+
+.khaled img {
+  height: 350px;
+}
+
+@keyframes spin {
+  0% {transform: rotate(-8deg)}
+  50% {transform: rotate(8deg)}
+  100% {transform: rotate(-8deg)}
+}
+
+#quote-container {
+  width: 100%;
+}
+
+p {
+  color: black;
+  font-size: 2rem;
+  text-shadow: 2px 1px 1px #717171;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  margin: 2rem;
+  padding: 15px;
+  font-size: 2rem;
+  background-color: #f2ff00;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  box-shadow: 3px 3px 2px #0000003d;
+}
